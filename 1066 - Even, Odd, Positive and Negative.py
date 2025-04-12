@@ -1,9 +1,9 @@
-numbers = [int(x) for x in input().split()]
 negativo = 0
 positivo = 0
 par = 0
 impar = 0
-for number in numbers:
+for _ in range(5):
+    number = int(input())
     if number < 0:
         negativo +=1
     if number %2 == 0:
